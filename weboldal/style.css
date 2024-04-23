@@ -1,0 +1,151 @@
+h1
+{
+    font-size: 9rem;
+    align-items: top;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+*
+{margin: 0;
+    padding:0;
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+      
+      }
+body{
+    background: lightgreen;
+}
+header{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+
+}
+figure{
+    padding:10px;
+
+}
+figure img {
+    width:150px;
+}
+nav h3{
+    text-align: center;
+}
+nav .menu-principal
+{
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu-principal li {
+    margin: 0 10px;
+    list-style-type:none;
+    font-size: 3cap;
+}
+section .background-img
+{
+   width: 100%;
+  overflow:hidden;
+}
+section .background-img img {
+     width:100%;    
+}
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.hero-info
+{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+
+}
+.hero-info h1, .hero-info h2{
+    color: white;
+}
+ .Elohely
+{   width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ .Elohely p
+{   
+    font-size: 3cap;
+    width:1000px;
+     margin-top:90px;
+}
+ .Elohely img
+ {
+    height:90% ;
+    margin-top: 20px;
+ }
+.Viselkedes
+{   width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ .Viselkedes p
+{   
+    font-size: 3cap;
+    width:1000px;
+}
+.Viselkedes img{
+    margin-top: 100px;
+    height:80%px;
+}
+.Bunda
+{   width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ .Bunda p
+{   margin-top: 60px;
+    font-size: 3cap;
+    width:1000px;
+}
+
+.Taplalkozas
+{   width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ .Taplalkozas p
+{   
+    font-size: 3cap;
+    width:1000px;
+}
+.Taplalkozas img{
+    width:30%;
+    margin-top: 60px;
+}
+
+.bottones
+{
+    display: flex;
+    justify-content: center;
+}
+.bottones button
+
+    { padding: 10px 50px;
+        margin: 10px 20px;
+        background: darkgreen;
+        color: white;
+        font-weight: bold;
+       }
+
+
+    
